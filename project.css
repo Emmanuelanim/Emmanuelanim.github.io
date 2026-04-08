@@ -30,7 +30,7 @@ a:hover {
     padding: 60px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-}
+} 
 
 /* --- 3. REUSABLE COMPONENTS --- */
 .section-title {
@@ -176,3 +176,11 @@ a:hover {
     color: #444;
     margin-bottom: 10px;
 }
+
+ footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #f1f1f1;
+    text-align: center;
+  }
