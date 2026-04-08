@@ -1,0 +1,178 @@
+/* --- 1. GLOBAL RESET & BASE STYLES --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+    line-height: 1.6;
+    padding: 40px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #2563eb;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* --- 2. MAIN CONTAINER --- */
+.resume-container {
+    max-width: 850px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 60px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* --- 3. REUSABLE COMPONENTS --- */
+.section-title {
+    font-size: 1.2rem;
+    color: #111;
+    margin-bottom: 20px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #2563eb;
+    text-transform: capitalize;
+}
+
+.resume-section {
+    margin-bottom: 40px;
+}
+
+/* --- 4. HEADER STYLES --- */
+.profile-header {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+.profile-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-info h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.contact-links,
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    font-size: 0.85rem;
+    color: #666;
+}
+
+.social-links {
+    margin-top: 5px;
+}
+
+/* --- 5. EXPERIENCE & EDUCATION STYLES --- */
+.item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.item-title-group h3 {
+    font-size: 1.1rem;
+    color: #111;
+}
+
+.company-link {
+    font-size: 0.95rem;
+    color: #2563eb;
+}
+
+.item-meta {
+    text-align: right;
+    font-size: 0.85rem;
+    color: #666;
+    display: flex;
+    flex-direction: column;
+}
+
+.experience-list {
+    margin-left: 20px;
+    font-size: 0.95rem;
+    color: #444;
+}
+
+.experience-list li {
+    margin-bottom: 6px;
+}
+
+.experience-item,
+.education-item {
+    margin-bottom: 25px;
+}
+
+/* --- 6. SKILLS & PROJECTS (TAGS) --- */
+.skill-category {
+    margin-bottom: 15px;
+}
+
+.skill-category h4 {
+    font-size: 0.95rem;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.tag {
+    font-size: 0.8rem;
+    color: #555;
+    background-color: transparent;
+    border: 1px solid #d1d5db;
+    padding: 4px 12px;
+    border-radius: 20px;
+}
+
+/* --- 7. PROJECTS SPECIFIC --- */
+.project-item {
+    margin-bottom: 25px;
+}
+
+.project-header h3 {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.project-header h3 a {
+    font-size: 0.9rem;
+    color: #9ca3af;
+}
+
+.project-item p {
+    font-size: 0.95rem;
+    color: #444;
+    margin-bottom: 10px;
+}
